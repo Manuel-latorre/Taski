@@ -1,3 +1,10 @@
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .main {
   display: flex;
   flex-direction: column;

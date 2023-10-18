@@ -1,0 +1,171 @@
+.btnSignIn{
+    position: relative;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-size: 12.5px;
+    margin: 10px;
+    border-radius: 10px;                                                                                                                             
+    cursor: pointer;
+    border: solid 1px rgb(0, 85, 255);
+}
+
+.btnSignIn:hover{
+   color: white;
+   background:  black; 
+   box-shadow: 0 0 10px rgb(0, 85, 255), 0 0 40px rgb(0, 85, 255), 0 0 80px rgb(0, 85, 255);
+   transition-delay: 1s;
+   border: none;
+   border-radius: none;
+}
+
+
+.btnSignIn span{
+    position: absolute;
+    display: block;
+}
+
+.btnSignIn span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+}
+
+.btnSignIn:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+
+}
+
+.btnSignIn span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+}
+
+.btnSignIn:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+.btnSignIn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, white);
+}
+
+
+
+.signOut{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+.btnSignOut{
+    position: relative;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-size: 12.5px;
+    margin: 10px;
+    border-radius: 10px;                                                                                                                             
+    cursor: pointer;
+    border: solid 1px red;
+}
+
+.btnSignOut:hover{
+   color: white;
+   background:  black; 
+   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+   transition-delay: 1s;
+   border: none;
+   border-radius: none;
+}
+
+
+.btnSignOut span{
+    position: absolute;
+    display: block;
+}
+
+.btnSignOut span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+}
+
+.btnSignOut:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+
+}
+
+.btnSignOut span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+}
+
+.btnSignOut:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+.btnSignOut span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, white);
+}
+
+
+@media(max-width:788px){
+    .imgUser{
+        display: none;
+    }
+
+    .btnSignOut{
+        margin-left: 20px;
+        background-color: transparent;
+    }
+
+    .btnSignIn{
+        margin-left: 20px;
+        background-color: transparent;
+    }
+}
